@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(184, 155, 119);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+h1{
+    color: navy;
+    font-weight: 900;
+    font-style: normal;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    
+}
+p{
+    font-weight: 400;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
