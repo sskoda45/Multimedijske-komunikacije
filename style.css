@@ -62,3 +62,78 @@ footer {
   font-size: 0.9em;
   color: #555;
 }
+form {
+  background-color: #f9f9f9;
+  border: 2px solid #786db6;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+fieldset {
+  border: 2px solid #b89b77;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fffaf3;
+}
+
+legend {
+  font-weight: bold;
+  color: #786db6;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #786db6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(120, 109, 182, 0.5);
+}
+
+button {
+  background-color: #786db6;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5c52a2;
+}
+
+section h2 {
+  text-align: center;
+  color: navy;
+}
+
+section p {
+  text-align: center;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.6);
+}

@@ -34,6 +34,47 @@
       <li>Popiti puno šalica <em>čaja</em></li>
     </ol>
   </section>
+<section>
+    <h2>Kontakt</h2>
+    <p>Želiš li mi ostaviti neki prijedlog ili komentar? Možeš ga napisati ovdje!</p>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Osobni podaci</legend>
+
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime" placeholder="Upiši svoje ime" required>
+
+        <label for="email">Email adresa:</label>
+        <input type="email" id="email" name="email" placeholder="npr. sara@email.com" required>
+
+        <label for="grad">Grad:</label>
+        <input list="gradovi" id="grad" name="grad" placeholder="Odaberi ili upiši grad">
+        <datalist id="gradovi">
+          <option value="Zagreb">
+          <option value="Split">
+          <option value="Rijeka">
+          <option value="Osijek">
+        </datalist>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tvoj upit</legend>
+
+        <label for="tema">Tema poruke:</label>
+        <select id="tema" name="tema">
+          <option value="pitanje">Pitanje</option>
+          <option value="prijedlog">Prijedlog</option>
+          <option value="kritika">Komentar</option>
+        </select>
+
+        <label for="poruka">Poruka:</label>
+        <input type="text" id="poruka" name="poruka" placeholder="Upiši svoju poruku ovdje">
+      </fieldset>
+
+      <button type="submit" value="pošalji">Pošalji</button>
+    </form>
+  </section>
 
   <footer>
     <p>Moj prosječan broj koraka dnevno: 10<sup>3</sup> <br>
