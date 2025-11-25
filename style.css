@@ -119,7 +119,7 @@ button {
   font-weight: bold;
   font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
   margin-top: 10px;
 }
 
@@ -165,7 +165,7 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: #e5d2b8;
-  transition: background 0.3s;
+  transition: 0.3s;
 }
 
 
@@ -176,4 +176,105 @@ tbody tr:hover {
 
 table, th, td {
   border-radius: 8px;
+}
+#stilovi {
+  margin-top: 40px;
+  background-color: #f8f3eb;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+
+.sekcija-naslov {
+  text-align: center;
+  color: navy;
+}
+
+.info-box {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #b89b77;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+
+#stilovi .info-box p {
+  font-style: italic;
+  color: #444;
+}
+
+section .info-box form label {
+  font-weight: bold;
+}
+
+
+input[type="text"] {
+  border: 2px solid #786db6;
+}
+
+input[type="email"] {
+  border: 2px solid #b89b77;
+}
+
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  display: block;
+}
+
+
+.mali-kvadrat {
+  width: 200px;
+  height: 80px;
+  background-color: #d4c4a1;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative; 
+  top: 10px;
+  left: 20px;
+  padding: 10px;
+}
+
+
+.opis {
+  float: left;
+  width: 60%;
+  margin-right: 20px;
+}
+
+.selektor-forma {
+  clear: both; 
+}
+
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  text-align: left;
+}
+.container {
+    position: relative;
+    padding: 40px;
+}
+
+#pomaknuti-element {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgb(220, 200, 170);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.attribute-box {
+    width: 350px;
+    margin: 80px auto 0 auto;  
+    padding: 20px;
+    border: 2px solid #6e54c3;
+    border-radius: 10px;
 }
