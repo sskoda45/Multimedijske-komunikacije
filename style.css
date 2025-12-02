@@ -278,3 +278,45 @@ input[type="email"] {
     border: 2px solid #6e54c3;
     border-radius: 10px;
 }
+.responsive-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+object {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #786db6;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    body {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    iframe, object {
+        width: 100%;
+        height: auto;
+    }
+
+    .responsive-img {
+        max-width: 100%;
+    }
+}
+img, picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
